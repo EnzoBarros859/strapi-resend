@@ -87,7 +87,7 @@ npm run develop
   <h1 style="color: #4F46E5;">Welcome to our platform, <%= USER.username %>!</h1>
   <p>Please confirm your email address by clicking the button below:</p>
   <div style="text-align: center; margin: 20px 0;">
-    <a href="http://localhost:3000/confirm-email?confirmation=<%= CODE %>" 
+    <a href="http://localhost:3000/confirm-email?token=<%= CODE %>" 
        style="background-color: #4F46E5; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;">
       Confirm Email Address
     </a>
