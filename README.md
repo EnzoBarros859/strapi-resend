@@ -31,6 +31,9 @@ This project uses Strapi's default email confirmation system with Resend as the 
 
 4. **Confirmation Flow**:
    - User registers → Strapi generates token
+  
+   - ![image](https://github.com/user-attachments/assets/b7250031-7cde-4cc2-a247-0614f24469e3)
+
    - Strapi uses Resend to send the confirmation email
    - User clicks link → Strapi verifies the token
    - Strapi updates the user's confirmed status
